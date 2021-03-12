@@ -7,8 +7,20 @@ Requirements
 
 * certbot
 * curl
-* jq
+* [jq](https://github.com/stedolan/jq)
 * Yandex Connect account
+
+Installation
+============
+
+Alpine linux:
+```shell
+apk add jq
+```
+CentOS 8:
+```
+dnf install jq
+```
 
 Usage
 =====
