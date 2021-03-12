@@ -9,17 +9,18 @@ Requirements
 * curl
 * [jq](https://github.com/stedolan/jq)
 * Yandex Connect account
+* Yandex Connect API key, get it here: https://pddimp.yandex.ru/api2/admin/get_token
 
-Installation
-============
+Dependencies installation
+=========================
 
 Alpine linux:
 ```shell
-apk add jq
+apk add certbot curl jq
 ```
 CentOS 8:
 ```
-dnf install jq
+dnf install certbot curl jq
 ```
 
 Usage
