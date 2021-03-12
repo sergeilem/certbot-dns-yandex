@@ -27,7 +27,5 @@ Usage
 =====
 
 1) Rename config.sh.examlpe to config.sh.
-2) Put your domain name into config.sh.
-3) Put your Yandex Connect API key into config.sh.
-4) Run renew.sh.
-5) Wait for 20 minutes.
+2) Put your domain name and Yandex Connect API key into config.sh.
+3) Run renew.sh and wait for 20 minutes.
