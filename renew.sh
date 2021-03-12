@@ -1,8 +1,9 @@
 #!/bin/sh
 
 _DIR="$(dirname "$0")"
+source "$_DIR/config.sh"
 
-certbot certonly -d your-third-level-domain-here.your-second-level-domain-here.com \
+certbot certonly -d $YOUR_DOMAIN \
 --agree-tos --renew-by-default --manual \
 --manual-auth-hook $_DIR/authenticator.sh \
 --manual-cleanup-hook $_DIR/cleanup.sh \
