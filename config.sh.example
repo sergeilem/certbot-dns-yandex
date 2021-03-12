@@ -1,2 +1,5 @@
+# Put here your 3rd level domain
+YOUR_DOMAIN="your-third-level-domain-here.your-second-level-domain-here.com"
+
 # Get your API key from https://tech.yandex.ru/pdd/doc/concepts/access-docpage/
 API_KEY="PUT_YOUR_KEY_HERE"
