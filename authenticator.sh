@@ -13,7 +13,6 @@ THIRDLEVELDOMAIN=$(expr match "$CERTBOT_DOMAIN" '\(.*\)\..*\..*')
 SUBDOMAIN="_acme-challenge.$THIRDLEVELDOMAIN"
 
 # Create TXT record
-CREATE_DOMAIN="_acme-challenge.$CERTBOT_DOMAIN"
 echo "Run list domains for $DOMAIN"
 curl -s -X POST "https://pddimp.yandex.ru/api2/admin/dns/add" \
   -H "PddToken: $API_KEY" \
